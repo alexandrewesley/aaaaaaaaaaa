@@ -1,10 +1,10 @@
-body {color:black;
-    background-color:yellow;
-   font-family:Arial, Helvetica, sans-serif;}
+body { 
+color:black;
+ background-color:yellow; 
+font-family:Arial, Helvetica, sans-serif;
 
 
-
-
+}
 ul {display:flex;
 justify-content: space-between;
 list-style-type: none;
@@ -48,12 +48,12 @@ ul {display:flex;
         text-align: center;
     }
    .inputBox{
-    
+   
     width: 1000px;
     
    
   }
-  .tatu,th,td{ border: 1px solid white;
+  .tatu,th,td{ border: 1px solid black;
 border-collapse:collapse;
 width: 1000px;
 } 
