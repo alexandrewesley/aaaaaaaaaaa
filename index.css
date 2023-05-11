@@ -28,7 +28,7 @@ header img {
 .forte{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
-position:;
+  
 }
 footer img{
     width:150px;
@@ -50,10 +50,7 @@ ul {display:flex;
    .inputBox{
    
     width: 1000px;
-    
+   }
    
-  }
-  .tatu,th,td{ border: 1px solid black;
-border-collapse:collapse;
-width: 1000px;
-} 
+  
+  
