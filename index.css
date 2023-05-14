@@ -14,12 +14,14 @@ padding: 16px;
 a {
     color:black;
     text-decoration: none;
+    
 }
 header img {
     width: 200px;
     height: 200px;
     border-radius: 90%;
     border:5px solid red ;
+    box-shadow: 10px 10px 5px black;
 }
 .center{
  text-align: center;
@@ -35,22 +37,28 @@ footer img{
     height: 150px;
     border-radius: 90%;
  border: 5px solid  red ;
+ box-shadow: 10px 10px 5px black;
 }
 ul {display:flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding: 16px;
+    padding:0;
+    
     }
     footer{
         display:flex ;
         justify-content:center ;
         text-align: center;
+        
     }
    .inputBox{
    
     width: 1000px;
    }
-   
+   nav  ul ul   {display: none;} 
+   nav ul li:hover >ul{display: block;}
+  
+ nav hr{ color: black;}
   
   
