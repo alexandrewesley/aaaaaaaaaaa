@@ -1,6 +1,7 @@
 body { 
 color:black;
  background-color:yellow; 
+linear-g
 font-family:Arial, Helvetica, sans-serif;
 
 
@@ -54,11 +55,51 @@ ul {display:flex;
     }
    .inputBox{
    
-    width: 1000px;
+    width: 0px;
    }
    nav  ul ul   {display: none;} 
    nav ul li:hover >ul{display: block;}
   
  nav hr{ color: black;}
   
-  
+  @media (max-width:800px) {
+    .header-1{
+        flex-wrap: wrap;
+    }
+    .um{
+        display: block;
+    }
+  }
+  @media (max-width:800px) {
+    .main-1{
+        flex-wrap: wrap;
+    }
+    .imputebox{
+        display: block;
+    }
+  }
+
+  @media (max-width:800px) {
+    .main-1{
+        flex-wrap: wrap;
+    }
+    .tabela{
+        display: block;
+    }
+  }
+
+  .box{
+    overflow-x: auto;
+  }
+  .tabela{
+
+    overflow-x: auto;
+  }
+  .um{
+    border: 1px solid red;
+    border-radius: 2%;
+  }
+
+  .dois{
+    
+  }
