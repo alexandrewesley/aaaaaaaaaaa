@@ -98,8 +98,13 @@ ul {display:flex;
   .um{
     border: 1px solid red;
     border-radius: 2%;
+    
   }
 
   .dois{
     
+  }
+   ul li:hover{
+background: rgb(251, 242, 108);
+
   }
